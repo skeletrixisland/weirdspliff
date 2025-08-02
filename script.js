@@ -5,8 +5,9 @@ const track = document.getElementById('carouselTrack');
     let autoScrollInterval;
 
     function updateCarousel() {
-        // Show 3 slides at once, center the current
-        track.style.transform = `translateX(-${currentIndex * 500}px)`;
+        // Get the current slide width (responsive)
+        const slideWidth = slides[0].clientWidth;
+        track.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
     }
 
     function moveSlide(n) {
