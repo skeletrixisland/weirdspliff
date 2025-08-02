@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEIRD_SPLIFF</title>
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header-flex">
+        <div class="header-left">
+            <a href="index.html">główna</a>
+            <a href="sklep.html">sklep</a>
+        </div>
+        <div class="header-center">
+            <img src="assets/logo.gif" alt="logo.gif" id="mainlogogif">
+        </div>
+        <div class="header-right">
+            <a href="kontakt.html">kontakt</a>
+            <a href="galeria.html">galeria</a>
+        </div>
+    </header>
+    <main>
+
+        <div class="carousel-container">
+            <button class="prev" onclick="moveSlide(-1)"><</button>
+            <div class="carousel-track-wrapper">
+                <div class="carousel-track" id="carouselTrack">
+                    <img class="carousel-slide" src="assets/mainpagecarousel/img1.jpg" alt="slide 1">
+                    <img class="carousel-slide" src="assets/mainpagecarousel/img2.jpg" alt="slide 2">
+                    <img class="carousel-slide" src="assets/mainpagecarousel/img3.jpg" alt="slide 3">
+                    <!-- Add more images as needed -->
+                </div>
+            </div>
+            <button class="next" onclick="moveSlide(1)">></button>
+        </div>
+    </main>
+            <h1>2025 COLLECTION</h1>
+    <footer>
+        <p>© 2025 WEIRD_SPLIFF.</p>
+        <a href="https://www.bigcartel.com/" target="_blank" rel="noopener noreferrer">
+            <img src="assets/big-cartel.svg" alt="bigcartel" class="footer-icon">
+        </a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
