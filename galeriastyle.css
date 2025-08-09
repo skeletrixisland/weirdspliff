@@ -6,8 +6,9 @@
 }
 
 .gallery-grid img {
-    width: 300px;
-    height: auto;
+    width: 100%;         /* Fill the grid cell */
+    height: auto;       /* Consistent height */
     object-fit: cover;
     border-radius: 12px;
+    display: block;      /* Removes inline gap */
 }
